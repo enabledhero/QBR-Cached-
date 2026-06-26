@@ -1,1 +1,22 @@
-
+{
+  "steam": {
+    "process": "steam.exe",
+    "windows": "C:\\Program Files (x86)\\Steam\\appcache\\*",
+    "darwin": "~/Library/Application Support/Steam/appcache/*"
+  },
+  "plarium_play": {
+    "process": "PlariumPlay.exe",
+    "windows": "%LOCALAPPDATA%\\Plarium\\PlariumPlay\\*",
+    "darwin": "~/Library/Application Support/PlariumPlay/*"
+  },
+  "google_chrome": {
+    "process": "chrome.exe",
+    "windows": "%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Cache\\*",
+    "darwin": "~/Library/Caches/Google/Chrome/*"
+  },
+    "google_chrome": {
+    "process": "",
+    "windows": "",
+    "darwin": ""
+    },
+}
